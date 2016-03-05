@@ -14,5 +14,10 @@ Scenario: debe mostrar un guion por cada letra de la palabra casa
   Given que abri la aplicacion
   Then debe versen "_ _ _ _"
 
+Scenario: debe mostrar la primera letra
+  Given que abri la aplicacion 
+  And ingrese la letra "C"
+  When el jugador oprima el boton enviar
+  Then debe verse "C _ _ _"
 
 

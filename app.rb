@@ -9,7 +9,7 @@ end
 
  post '/juego' do
  	letra=params['letra']
- 	@@frase_enmascarada=@@objahorcado.visualizarFrase(letra)
+ 	@@frase_enmascarada=@@objahorcado.visualizarFrase(letra.upcase)
  	erb :index
  end
 

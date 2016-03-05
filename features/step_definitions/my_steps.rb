@@ -9,4 +9,7 @@ end
 Then(/^debe verse "(.*?)"$/) do |texto1|
   last_response.body.should =~ /#{texto1}/m
 end
+Then(/^debe versen "(.*?)"$/) do |texto2|
+  last_response.body.should =~ /#{texto2}/m
+end
 

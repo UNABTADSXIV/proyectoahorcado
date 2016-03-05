@@ -9,3 +9,8 @@ Scenario: debe verse el titulo adivina la palabra
 Scenario: debe verse un guion que indica una letra
   Given que abri la aplicacion
   Then debe verse "_"
+
+Scenario: debe verse un guion por cada letra de la palabra casa
+  Given que abri la aplicacion
+  Then debe versen "_ _ _ _"
+

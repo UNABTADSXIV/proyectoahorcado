@@ -15,3 +15,4 @@ Scenario: debe mostrar un guion por cada letra de la palabra casa
   Then debe versen "_ _ _ _"
 
 
+

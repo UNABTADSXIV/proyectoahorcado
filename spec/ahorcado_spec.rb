@@ -10,6 +10,10 @@ describe "Ahorcado" do
 		objahorcado=Ahorcado.new "C A S A"
 		objahorcado.visualizarFrase("C").should=="C _ _ _"
 	end
+		it "se presiono la letra _ A _ A" do
+		objahorcado=Ahorcado.new "C A S A"
+		objahorcado.visualizarFrase("A").should=="_ A _ A"
+	end
 
 
 end

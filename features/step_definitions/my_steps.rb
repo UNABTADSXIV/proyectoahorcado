@@ -12,4 +12,9 @@ end
 Then(/^debe versen "(.*?)"$/) do |texto2|
   last_response.body.should =~ /#{texto2}/m
 end
+Then(/^debe verse la letra  "(.*?)"$/) do |arg1|
+  last_response.body.should =~ /#{arg1}/m
+end
+
+
 

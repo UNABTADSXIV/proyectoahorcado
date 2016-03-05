@@ -17,3 +17,4 @@ Scenario: debe verse un guion por cada letra de la palabra casa
 Scenario: debe verse una C y tres guiones si se oprime la letra C
   Given que abri la aplicacion
   Then debe verse la letra  "C _ _ _"
+
